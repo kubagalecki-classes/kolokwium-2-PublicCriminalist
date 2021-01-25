@@ -1,5 +1,7 @@
 #include "zad1.hpp"
 
+unsigned Warzywo::razem = 0;
+
 TEST_CASE("Test klasy Warzywo", "[zad1]")
 {
     CHECK(Warzywo::getVeg() == 0);
